@@ -342,7 +342,7 @@ caption {
 .cost .img-container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 25px;
 }
 
 .cost .first {
@@ -354,7 +354,7 @@ caption {
 .cost .second, .cost .third {
   width: 100%;
   display: flex;
-  gap: 20px;
+  gap: 25px;
   margin: auto;
 }
 
@@ -366,11 +366,8 @@ caption {
   cursor: pointer;
 }
 
-.cost img {
-  transition: 0.5s;
-  overflow: hidden;}
-.cost img:hover {
-  transform: scale(1.1);}
+.cost img {transition: 0.5s;}
+.cost img:hover {transform: scale(1.1);}
 
 #container2 .button{
   right: 100%;
