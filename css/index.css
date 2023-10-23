@@ -119,54 +119,16 @@ nav .icon i:hover {
 
 /* content_________________visual______________ */
 
-main {width: 100%;}
-
-.slide .btnmove{
-  position: absolute;
-  top: 50%;
-  z-index: 1;
-  font-size: 50px;
-  opacity: 0.5;
-}
-.slide .btnmove.prev{left: 20px;}
-.slide .btnmove.next{right: 20px;}
-.slide i{color: #fff;}
-
-.rolling-contain{
-  position: relative;
-  display: flex;
-  top: 0;
-  right: 0;
-  margin: auto;
-  animation: 60s sliding ease-out infinite;
-}
-
-.rolling{
-  display: flex;
-  margin: auto;
-}
-.rolling a img{
-  width: 100vw;
+main {
+  width: 100%;
   height: 100vh;
+}
+main img{
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
-@keyframes sliding {
-  0% { left: 0%; }
-  7% { left: 0%; }
-  15% { left: -100vw; }
-  23% { left: -100vw;}
-  32% { left: -200vw; }
-  39% { left: -200vw; }
-  46% { left: -300vw;}
-  53% { left: -300vw;}
-  60% { left: -400vw; }
-  67% { left: -400vw; }
-  73% { left: -500vw; }
-  81% { left: -500vw; }
-  90% { left: -600vw; }
-  100% {left: -600vw; }
-}
 
 /* ______________________section_______________ */
 
